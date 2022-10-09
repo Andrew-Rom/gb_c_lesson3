@@ -9,6 +9,7 @@ int GetNumFromUser(string message)
 }
 
 int n = GetNumFromUser("Введите число N (при N > 1): ");
+
 if (n <= 1)
 {
     Console.WriteLine("Введено неверное число.");
